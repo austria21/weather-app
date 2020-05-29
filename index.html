@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel= "stylesheet" href ="style.css"> 
+    <title>JA WEATHER</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">JA WEATHER</h1>
+
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter your location</label>
+            <input type="text" name="city" id="" class="form-control p-4">
+           
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+                <img src="https://via.placeholder.com/400x300" class = "time card-img-top">
+                <div class="icon bg-light mx-auto text-center">
+                    <!-- icon -->
+                    <img src = "" alt ="">
+                </div>
+                <div class="text-muted text-uppercase text-center details">
+                    <h5 class="my-3">City  name</h5>
+                    <div class="my-3">Weather condition</div>
+                    <div class="display-4 my-4">
+                        <span>temp</span>
+                        <span>&deg;C</span>
+
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    
+    
+<!--Jquery CDN-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src = "scripts/forecast_class.js"></script>
+<script src="app_class.js"></script>
+
+</body>
+</html>
